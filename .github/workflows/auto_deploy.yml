@@ -31,4 +31,4 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: deploying using surge
-      run: surge ./C:\Users\Ali Shan\web-development\ endurable-slip.surge.sh --token ${{ Secrets.token }}
+      run: surge ./ webapp-with-python.surge.sh --token ${{ Secrets.TOKEN }}
